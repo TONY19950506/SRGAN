@@ -17,5 +17,4 @@ To run this project, you will need:
 - Numpy
 - PIL (Python Imaging Library)
 
-## Installation
-Clone this repository to your local machine:
+
