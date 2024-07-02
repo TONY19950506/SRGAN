@@ -20,7 +20,7 @@ Example results obtained using the SRGAN model:
 
 | Low-Resolution Image | Super-Resolution Image | 
 |----------------------|------------------------|
-| ![LR](examples/lr.png) | ![SR](examples/sr.png) | 
+| ![LR](image/srcnn_lr.jpg) | ![SR](image/srcnn_sr.jpg) | 
 
 ## References
 
