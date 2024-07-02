@@ -12,7 +12,7 @@ SRGAN is a deep learning model that uses generative adversarial networks (GANs) 
 - Pre-trained models for quick inference.
 - Scripts for training the SRGAN model on custom datasets.
 - Evaluation metrics for comparing performance with other super-resolution methods.
-![SRGAN Architecture](path_to_architecture_image)
+![SRGAN Architecture](image/srgan_架構.PNG)
 
 ## Results
 
@@ -20,7 +20,7 @@ Example results obtained using the SRGAN model:
 
 | Low-Resolution Image | Super-Resolution Image | 
 |----------------------|------------------------|
-| ![LR](image/srcnn_lr.jpg) | ![SR](image/srcnn_sr.jpg) | 
+| ![LR](image/srcnn_lr.jpg) | ![SR](image/srgan_sr.jpg) | 
 
 ## References
 
