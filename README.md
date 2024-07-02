@@ -1,20 +1,29 @@
-# SRGAN (Super-Resolution Generative Adversarial Network)
+# SRGAN: Super-Resolution Generative Adversarial Network
 
-## Introduction
-SRGAN, or Super-Resolution Generative Adversarial Network, is a deep learning model designed to enhance the resolution of images. Utilizing the generative adversarial network (GAN) architecture, SRGAN aims to generate high-resolution images from low-resolution inputs, achieving impressive results in the field of image super-resolution.
+This repository contains the implementation of the SRGAN (Super-Resolution Generative Adversarial Network) model for image super-resolution.
 
-This project implements SRGAN based on the original paper "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" by Ledig et al., focusing on improving the quality and detail of upscaled images.
+## Overview
+
+SRGAN is a deep learning model that uses generative adversarial networks (GANs) to enhance the resolution of low-resolution images by predicting their high-resolution counterparts. This method is particularly effective in producing realistic and high-quality images, making it suitable for applications in various fields such as medical imaging, satellite imaging, and more.
 
 ## Features
-- Super-resolution of images up to 4x magnification.
-- Implementation of the GAN architecture for image processing.
-- Enhancement of image details while maintaining a natural look.
 
-## Requirements
-To run this project, you will need:
-- Python 3.6 or higher
-- TensorFlow 2.x
-- Numpy
-- PIL (Python Imaging Library)
+- Implementation of the SRGAN architecture.
+- Pre-trained models for quick inference.
+- Scripts for training the SRGAN model on custom datasets.
+- Evaluation metrics for comparing performance with other super-resolution methods.
+![SRGAN Architecture](path_to_architecture_image)
+
+## Results
+
+Example results obtained using the SRGAN model:
+
+| Low-Resolution Image | Super-Resolution Image | 
+|----------------------|------------------------|
+| ![LR](examples/lr.png) | ![SR](examples/sr.png) | 
+
+## References
+
+- [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (CVPR 2017)](https://arxiv.org/abs/1609.04802)
 
 
